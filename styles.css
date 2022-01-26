@@ -1,0 +1,36 @@
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.header {
+  display: flex;
+  background-color: #1F2937;
+  align-items: center;
+  justify-content: space-around;
+  height: 72px;
+}
+
+.header-logo {
+  display: flex;
+  font-size: 24px;
+  color: #F9FAF8;
+}
+
+.header-links {
+  display: flex;
+  font-size: 18px;
+  gap: 12px;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #F9FAF8;
+}
