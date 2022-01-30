@@ -5,7 +5,6 @@ html {
 body {
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
   margin: 0;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
@@ -18,6 +17,7 @@ body {
   flex-wrap: wrap;
   color: #F9FAF8;
   padding: 10px;
+  height: 50px;
 }
 
 .header-logo {
@@ -48,7 +48,6 @@ a {
   flex-shrink: 0;
   background-color: #1f2937;
   color: #F9FAF8;
-  
 }
 
 .header-text {
@@ -83,6 +82,7 @@ a {
   color: black;
   flex-shrink: 0;
   margin: 20px 10px;
+  padding: 0 10px
 }
 
 button {
@@ -94,12 +94,13 @@ button {
   padding: 5px;
 }
 
-.card-section {
+.cards-section {
   display: flex;
-  padding: 32px;
+  flex-direction: row;
   flex-wrap: wrap;
-  max-height: 20vh;
-  padding: 10px;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 50px;
 }
 
 .card {
@@ -117,7 +118,6 @@ button {
 .quote-section {
   display: flex;
   background-color: #E5E7EB;
-  padding: 10px;
   justify-content: center;
   align-items: center;
 }
@@ -137,6 +137,7 @@ button {
   color: #E5E7EB;
   font-size: 18px;
   padding: 20px;
+  border-radius: 10px;
 }
 
 .footer {
