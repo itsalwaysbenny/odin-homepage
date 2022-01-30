@@ -17,6 +17,7 @@ body {
   justify-content: space-between;
   flex-wrap: wrap;
   color: #F9FAF8;
+  padding: 10px;
 }
 
 .header-logo {
@@ -60,7 +61,6 @@ a {
   flex-wrap: wrap;
   font-size: 48px;
   font-weight: 900;
-  margin: 12px 6px;
 }
 
 .header-text-paragraph {
@@ -70,21 +70,28 @@ a {
   color: #e5e7eb;
 }
 
+.header-lower-image-container {
+  display: flex;
+  margin: 20px 0px;  
+}
+
 .header-lower-image {
   display: flex;
   align-items: center;
   justify-content: center;
   background-color: lightgrey;
   color: black;
-  margin: 20px 0px;
   flex-shrink: 0;
-  width: 50vw;
+  margin: 20px 10px;
 }
 
 button {
   background-color: rgb(0, 119, 255);
   color: #F9FAF8;
   margin: 12px 6px;
+  border: 1px solid #F9FAF8;
+  border-radius: 5px;
+  padding: 5px;
 }
 
 .card-section {
@@ -92,6 +99,7 @@ button {
   padding: 32px;
   flex-wrap: wrap;
   max-height: 20vh;
+  padding: 10px;
 }
 
 .card {
@@ -106,6 +114,31 @@ button {
   width: 200px;
 }
 
+.quote-section {
+  display: flex;
+  background-color: #E5E7EB;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.signup-container {
+  display: flex;
+  padding: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.signup-container-text {
+  display: flex;
+  background-color: #3882f6;
+  align-items: center;
+  justify-content: center;
+  color: #E5E7EB;
+  font-size: 18px;
+  padding: 20px;
+}
+
 .footer {
   display: flex;
   margin-top: auto;
@@ -114,4 +147,5 @@ button {
   background-color: #1f2937;
   color: #F9FAF8;
   position: relative;
+  padding: 10px;
 }
